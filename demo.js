@@ -128,10 +128,6 @@ var leakSocialMediaAccounts = function(callback) {
         redirect: "/account/signin/?next=/favicon.ico",
         name: "BitBucket"
     }, {
-        domain: "https://secure.indeed.com",
-        redirect: "/account/login?continue=%2ffavicon.ico",
-        name: "Indeed"
-    }, {
         domain: "https://vk.com",
         redirect: "/login?u=2&to=ZmF2aWNvbi5pY28-",
         name: "VK"
@@ -189,4 +185,8 @@ var leakSocialMediaAccounts = function(callback) {
 //      domain: "https://www.flickr.com",
 //      redirect: "/signin/yahoo/?redir=https%3A%2F%2Fwww.flickr.com/favicon.ico",
 //      name: "Flickr"
-//   }
+// },{
+//      domain: "https://secure.indeed.com",
+//      redirect: "/account/login?continue=%2ffavicon.ico",
+//      name: "Indeed"
+// }, 
